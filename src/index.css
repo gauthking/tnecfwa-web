@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Koulen";
+  src: url("./assets/fonts/Koulen-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Kufam";
+  src: url("./assets/fonts/Kufam-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "KumbhSans-Bold";
+  src: url("./assets/fonts/KumbhSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "KulimPark-Bold";
+  src: url("./assets/fonts/KulimPark-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "KulimPark-Regular";
+  src: url("./assets/fonts/KulimPark-Regular.ttf") format("truetype");
+}
+
+body {
+  background-color: #c8d5cb;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
