@@ -14,7 +14,7 @@ const Gallery = () => {
       <header className="pb-2 px-4 rounded-l-3xl relative top-11 bg-[#AEE5D8] border-2 border-[#E0B0D5] w-fit drop-shadow-xl float-right">
         <div className="font-kulimpark text-4xl md:text-6xl px-4">gallery</div>
       </header>
-      <Marquee className="p-20 text-sm" pauseOnHover="true">
+      <Marquee className="p-20 text-sm">
         <img
           src={image1}
           alt="image1"
@@ -41,11 +41,7 @@ const Gallery = () => {
           className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
         />
       </Marquee>
-      <Marquee
-        className="p-20 text-sm -mt-20"
-        pauseOnHover="true"
-        direction="right"
-      >
+      <Marquee className="p-20 text-sm -mt-20" direction="right">
         <img
           src={image6}
           alt="image6"

@@ -1,5 +1,5 @@
 import Activities from "./components/activities";
-import Footer from "./components/footer";
+import FooterSection from "./components/footerSection";
 import Gallery from "./components/gallery";
 import Hero from "./components/hero";
 import Purpose from "./components/purpose";
@@ -11,7 +11,7 @@ const MainPage = () => {
       <Purpose />
       <Gallery />
       <Activities />
-      <Footer />
+      <FooterSection />
     </main>
   );
 };
