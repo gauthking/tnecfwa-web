@@ -1,14 +1,7 @@
 import "react-alice-carousel/lib/alice-carousel.css";
 import AliceCarousel from "react-alice-carousel";
-import image10 from "../assets/image10.png";
-import image11 from "../assets/image11.png";
-import image12 from "../assets/image12.png";
-import image13 from "../assets/image13.png";
-import image14 from "../assets/image14.png";
-import image15 from "../assets/image15.png";
 
 const Activities = () => {
-  const handleDragStart = (e: any) => e.preventDefault();
   const responsive = {
     0: { items: 1 },
     1024: { items: 2 },
