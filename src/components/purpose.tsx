@@ -23,7 +23,11 @@ const Purpose = () => {
           </div>
           <div>
             <button className="text-center p-2 bg-black rounded-xl text-white lg:relative lg:top-16 lg:left-10">
-              <a href="https://github.com/gauthking/ethereumbook">
+              <a
+                href="https://tnecfwa-constitution.tiiny.site/"
+                target="_blank"
+                className="font-kulimpark"
+              >
                 {" "}
                 View Constitution
               </a>
