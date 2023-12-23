@@ -1,8 +1,6 @@
-import { useNavigate } from "react-router-dom";
 import illustration1 from "../assets/illustration-1.svg";
 
 const Purpose = () => {
-  const navigate = useNavigate();
   return (
     <div className="bg-[#5FBF8F] max-w-full">
       <header className="pb-2 px-4 rounded-r-3xl relative top-11 bg-[#AEE5D8] border-2 border-[#E0B0D5] w-fit drop-shadow-xl">
