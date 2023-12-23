@@ -1,4 +1,5 @@
 import phoneIcon from "../assets/phone-icon.svg";
+import mailIcon from "../assets/mailicon.png";
 import locationIcon from "../assets/location-icon.svg";
 import timeIcon from "../assets/timeicon.svg";
 import qrcode from "../assets/scan.png";
@@ -65,6 +66,12 @@ const FooterSection = () => {
             <div className="flex gap-2 items-center">
               <img src={phoneIcon} alt="phoneIcon" className="w-10" />
               <p className="font-kulimpark text-2xl text-white">098407 98193</p>
+            </div>
+            <div className="flex gap-2 items-center">
+              <img src={mailIcon} alt="phoneIcon" className="w-10" />
+              <p className="font-kulimpark text-2xl text-white">
+                tnecfwa@gmail.com
+              </p>
             </div>
             <div className="flex gap-2 items-center -ml-4">
               <img src={locationIcon} alt="phoneIcon" className="w-16" />

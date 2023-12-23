@@ -1,5 +1,5 @@
 import { NavbarInfo } from "../utils/constant";
-import logo from "../assets/logo.svg";
+import logo from "../assets/logo.png";
 /**
  * MainNavbar component renders the main navigation bar.
  *

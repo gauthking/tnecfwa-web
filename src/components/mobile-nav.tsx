@@ -5,6 +5,7 @@ import CompleteDrawer from "./common/drawer";
 import { Icons } from "./icons";
 import PageContainer from "./page-container";
 import { NavbarInfo } from "../utils/constant";
+import logo from "../assets/logo.png";
 
 /**
  * MobileNavbar component represents the mobile version of the navigation bar.
@@ -26,10 +27,13 @@ const MobileNavbar = () => {
 
   return (
     <div className="flex min-w-full md:hidden px-3 md:py-auto py-5 justify-between bg-[#AEE5D8] shadow-gray-500 shadow-md">
-      <div>
-        <h1 className="flex text-2xl gap-1 font-koulen font-[700] text-[#014824]">
-          TNECFWA
-        </h1>
+      <div className="flex justify-center items-center gap-2 mx-3">
+        <img src={logo} className="w-10" alt="logosvg" />
+        <a href="/">
+          <h1 className="flex text-2xl gap-1 font-koulen font-[700] text-[#014824]">
+            TNECFWA
+          </h1>
+        </a>
       </div>
       {/* Render CompleteDrawer for mobile navigation */}
       <CompleteDrawer

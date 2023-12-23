@@ -14,36 +14,62 @@ const Activities = () => {
     1024: { items: 2 },
   };
   const items = [
-    <img
-      src={image10}
-      onDragStart={handleDragStart}
-      className="m-auto w-1/2 h-1/2 border-4 border-[#92AF92] rounded-2xl"
-    />,
-    <img
-      src={image11}
-      onDragStart={handleDragStart}
-      className="m-auto w-1/2 h-1/2 border-4 border-[#92AF92] rounded-2xl"
-    />,
-    <img
-      src={image12}
-      onDragStart={handleDragStart}
-      className="m-auto w-1/2 h-1/2 border-4 border-[#92AF92] rounded-2xl"
-    />,
-    <img
-      src={image13}
-      onDragStart={handleDragStart}
-      className="m-auto w-1/2 h-1/2 border-4 border-[#92AF92] rounded-2xl"
-    />,
-    <img
-      src={image14}
-      onDragStart={handleDragStart}
-      className="m-auto w-1/2 h-1/2 border-4 border-[#92AF92] rounded-2xl"
-    />,
-    <img
-      src={image15}
-      onDragStart={handleDragStart}
-      className="m-auto w-1/2 h-1/2 border-4 border-[#92AF92] rounded-2xl"
-    />,
+    <iframe
+      className="border-4 border-[#92AF92] rounded-3xl m-auto w-[350px] lg:w-[500px]"
+      height="215"
+      src="https://www.youtube.com/embed/7RMYgiDagsg?si=3yeOpnxoTCwNGlC7"
+      title="video 1"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    ></iframe>,
+    <iframe
+      className="border-4 border-[#92AF92] rounded-3xl m-auto w-[350px] lg:w-[500px]"
+      height="215"
+      src="https://www.youtube.com/embed/YecyjmFJZ9o?si=S7EIN_2m27JEGWl4"
+      title="video 2"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    ></iframe>,
+    <iframe
+      className="border-4 border-[#92AF92] rounded-3xl m-auto w-[350px] lg:w-[500px]"
+      height="215"
+      src="https://www.youtube.com/embed/tEwqA7utVAA?si=Xh2IazdExPr7VeIm"
+      title="video 3"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    ></iframe>,
+    <iframe
+      className="border-4 border-[#92AF92] rounded-3xl m-auto w-[350px] lg:w-[500px]"
+      height="215"
+      src="https://www.facebook.com/plugins/video.php?height=235&href=https%3A%2F%2Fwww.facebook.com%2FTNECFWA%2Fvideos%2F3516944825234522%2F&show_text=false&width=560&t=0"
+      title="video 4"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    ></iframe>,
+    <iframe
+      className="border-4 border-[#92AF92] rounded-3xl m-auto w-[350px] lg:w-[500px]"
+      height="215"
+      src="https://www.facebook.com/plugins/video.php?height=234&href=https%3A%2F%2Fwww.facebook.com%2FTNECFWA%2Fvideos%2F1009936726721550%2F&show_text=false&width=560&t=0"
+      title="video 5"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    ></iframe>,
+    <iframe
+      className="border-4 border-[#92AF92] rounded-3xl m-auto w-[350px] lg:w-[500px]"
+      height="215"
+      src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FTNECFWA%2Fvideos%2F1865592436948177%2F&show_text=false&width=560&t=0"
+      title="video 6"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    ></iframe>,
+    <iframe
+      className="border-4 border-[#92AF92] rounded-3xl m-auto w-[350px] lg:w-[500px]"
+      height="215"
+      src="https://www.facebook.com/plugins/video.php?height=249&href=https%3A%2F%2Fwww.facebook.com%2FTNECFWA%2Fvideos%2F314877854298607%2F&show_text=false&width=560&t=0"
+      title="video 7"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    ></iframe>,
+    <iframe
+      className="border-4 border-[#92AF92] rounded-3xl m-auto w-[350px] lg:w-[500px]"
+      height="215"
+      src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fasad.r.39%2Fvideos%2F2948257902091013%2F&show_text=false&width=333&t=0"
+      title="video 8"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    ></iframe>,
   ];
   return (
     <div className="max-w-full mb-20">

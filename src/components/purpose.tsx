@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router-dom";
 import illustration1 from "../assets/illustration-1.svg";
 
 const Purpose = () => {
+  const navigate = useNavigate();
   return (
     <div className="bg-[#5FBF8F] max-w-full">
       <header className="pb-2 px-4 rounded-r-3xl relative top-11 bg-[#AEE5D8] border-2 border-[#E0B0D5] w-fit drop-shadow-xl">
@@ -17,8 +19,18 @@ const Purpose = () => {
             and developing chapter programs to advance the profession.
           </p>
         </div>
-        <div className="relative top-10 md:-top-20">
-          <img src={illustration1} className="w-[600px]" alt="" />
+        <div className="relative top-10 md:-top-20 flex flex-col">
+          <div>
+            <img src={illustration1} className="w-[600px]" alt="" />
+          </div>
+          <div>
+            <button className="text-center p-2 bg-black rounded-xl text-white lg:relative lg:top-16 lg:left-10">
+              <a href="https://github.com/gauthking/ethereumbook">
+                {" "}
+                View Constitution
+              </a>
+            </button>
+          </div>
         </div>
       </section>
     </div>
