@@ -8,6 +8,7 @@ import Purpose from "./components/purpose";
 import Gallery from "./components/gallery";
 import Activities from "./components/activities";
 import FooterSection from "./components/footerSection";
+import OfficeBearers from "./components/officebearers";
 function App() {
   return (
     <UseUserDataWrapper>
@@ -19,6 +20,7 @@ function App() {
         <Hero />
         <Purpose />
         <Gallery />
+        <OfficeBearers />
         <Activities />
         <FooterSection />
       </main>

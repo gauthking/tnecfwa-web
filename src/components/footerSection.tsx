@@ -91,7 +91,7 @@ const FooterSection = () => {
 
           <div className="flex items-center gap-12 md:my-10 md:mx-10 my-6">
             <img src={timeIcon} alt="timeIcon" className="w-10" />
-            <p className="text-lg lg:text-lg text-justify text-white font-kulimpark lg:leading-10">
+            <p className="text-sm leading-7 lg:text-lg text-justify text-white font-kulimpark lg:leading-10">
               Mon : 10:00 AM – 4:00 PM <br /> Tue : 10:00 AM – 4:00 PM <br />{" "}
               Wed : 10:00 AM – 4:00 PM <br />
               Thu : 10:00 AM – 4:00 PM <br /> Fri : 10:00 AM – 4:00 PM <br />{" "}
