@@ -76,7 +76,7 @@ const OfficeBearers = () => {
                 Mr Senthamizh Selvan, EC Member
               </p>
               <p className="font-kulimparkregular p-1 rounded-xl bg-gray-500">
-                Dr Praveen Joe R, EC Member
+                Dr Praveen Joe I R, EC Member
               </p>
               <p className="font-kulimparkregular p-1 rounded-xl bg-gray-500">
                 Prof R K Muthuraman, EC Member
