@@ -16,10 +16,13 @@ const FooterSection = () => {
     top: "50%",
     left: "50%",
     transform: "translate(-50%, -50%)",
-    width: 400,
+    width: "fit",
     bgcolor: "#5FBF8F",
     border: "2px solid #000",
     boxShadow: 24,
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
     p: 4,
   };
   return (
@@ -99,12 +102,12 @@ const FooterSection = () => {
             </p>
           </div>
 
-          <p className="font-semibold relative lg:left-10 text-lg my-10 lg:text-xl">
-            Google Pay Number :{" "}
+          <p className="font-kulimpark relative lg:left-10 text-lg my-10 lg:text-xl">
+            Google Pay :{" "}
             <div className="font-light flex items-center gap-3 text-white font-kulimpark">
-              <p>+91 8778801371 or</p>
+              <p className="font-kulimparkregular">tnecfwa@sbi</p>
               <p
-                className="font-extralight text-gray-300 underline cursor-pointer"
+                className="font-kulimparkregular text-gray-300 underline cursor-pointer"
                 onClick={() => handleOpen()}
               >
                 Click here for QR Code

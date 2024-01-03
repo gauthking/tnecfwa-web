@@ -9,6 +9,7 @@ import Gallery from "./components/gallery";
 import Activities from "./components/activities";
 import FooterSection from "./components/footerSection";
 import OfficeBearers from "./components/officebearers";
+import UpcomingEvents from "./components/upcomingEvents";
 function App() {
   return (
     <UseUserDataWrapper>
@@ -18,6 +19,7 @@ function App() {
       </PageContainer>
       <main className="min-h-screen">
         <Hero />
+        <UpcomingEvents />
         <Purpose />
         <Gallery />
         <OfficeBearers />

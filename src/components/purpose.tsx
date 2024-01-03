@@ -17,7 +17,7 @@ const Purpose = () => {
             and developing chapter programs to advance the profession.
           </p>
         </div>
-        <div className="relative top-10 md:-top-20 flex flex-col">
+        <div className="relative top-10 md:-top-24 flex flex-col">
           <div>
             <img src={illustration1} className="w-[600px]" alt="" />
           </div>
