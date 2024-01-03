@@ -9,7 +9,7 @@ const UpcomingEvents = () => {
           Upcoming Events
         </h1>
 
-        <div className="flex flex-col items-center justify-center mt-10 gap-4">
+        <div className="flex flex-col items-center justify-center mt-10 gap-4 mx-6">
           <img
             src={poster}
             className=" w-[400px] md:w-[550px] rounded-2xl border-[#92AF92] border-4"
