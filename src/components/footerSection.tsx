@@ -50,7 +50,7 @@ const FooterSection = () => {
               <div className="hidden lg:block w-full bg-white h-[1px] mb-6"></div>
               <iframe
                 className="w-72 h-72 md:h-[400px] md:w-[400px]"
-                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d15692.903528829913!2d76.1667694!3d10.4828516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sin!4v1703007628148!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.2458077647957!2d80.22085609999999!3d13.020012699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526711d6644da3%3A0x1bebf6ddcee4c479!2sS%20S%20Poly%20Clinic!5e0!3m2!1sen!2sin!4v1704466078537!5m2!1sen!2sin"
                 width="600"
                 height="450"
                 loading="lazy"
@@ -65,7 +65,7 @@ const FooterSection = () => {
 
           <div className="hidden lg:block w-full bg-white h-[1px] mt-2"></div>
 
-          <div className="flex flex-col gap-10 m-10 w-full">
+          <div className="flex flex-col gap-4 md:gap-10 m-10 w-full">
             <div className="flex gap-2 items-center">
               <img src={phoneIcon} alt="phoneIcon" className="w-10" />
               <p className="font-kulimpark text-2xl text-white">098407 98193</p>

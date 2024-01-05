@@ -10,6 +10,7 @@ import Activities from "./components/activities";
 import FooterSection from "./components/footerSection";
 import OfficeBearers from "./components/officebearers";
 import UpcomingEvents from "./components/upcomingEvents";
+import Media from "./components/media";
 function App() {
   return (
     <UseUserDataWrapper>
@@ -23,6 +24,7 @@ function App() {
         <Purpose />
         <Gallery />
         <OfficeBearers />
+        <Media />
         <Activities />
         <FooterSection />
       </main>

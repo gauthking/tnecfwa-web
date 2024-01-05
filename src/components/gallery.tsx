@@ -40,6 +40,21 @@ const Gallery = () => {
           alt="image5"
           className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
         />
+        <img
+          src={image2}
+          alt="image2"
+          className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
+        />
+        <img
+          src={image1}
+          alt="image1"
+          className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
+        />
+        <img
+          src={image4}
+          alt="image4"
+          className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
+        />
       </Marquee>
       <Marquee className="p-20 text-sm -mt-20" direction="right">
         <img
@@ -53,6 +68,11 @@ const Gallery = () => {
           className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
         />
         <img
+          src={image5}
+          alt="image5"
+          className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
+        />
+        <img
           src={image8}
           alt="image8"
           className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
@@ -60,6 +80,11 @@ const Gallery = () => {
         <img
           src={image9}
           alt="image9"
+          className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
+        />
+        <img
+          src={image4}
+          alt="image4"
           className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
         />
       </Marquee>

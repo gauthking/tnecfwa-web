@@ -79,6 +79,10 @@ const Activities = () => {
           infinite={true}
         />
       </div>
+
+      <section>
+        <header></header>
+      </section>
     </div>
   );
 };
