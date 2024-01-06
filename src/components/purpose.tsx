@@ -22,7 +22,7 @@ const Purpose = () => {
             <img src={illustration1} className="w-[600px]" alt="" />
           </div>
           <div>
-            <button className="text-center p-4 bg-black rounded-xl text-white lg:relative lg:top-16 lg:left-10">
+            <button className="text-center p-2 md:pd-4 bg-black rounded-xl text-xs md:text-lg text-white my-4 lg:relative lg:top-16 lg:left-10">
               <a
                 href="https://tnecfwa-constitution.tiiny.site/"
                 target="_blank"
