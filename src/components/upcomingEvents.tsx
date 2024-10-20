@@ -1,4 +1,5 @@
-import poster from "../assets/upcomingevent.png";
+// import poster from "../assets/upcomingevent.png";
+import poster1 from "../assets/upcomingevent1.jpg";
 
 const UpcomingEvents = () => {
   return (
@@ -12,11 +13,11 @@ const UpcomingEvents = () => {
 
       <div className="flex flex-col items-center justify-center mt-10 gap-4 mx-6">
         <img
-          src={poster}
+          src={poster1}
           className=" w-[400px] md:w-[550px] rounded-2xl border-[#92AF92] border-4"
           alt=""
         />
-        <div className="bg-[#92AF92] p-2 rounded-xl">
+        <div className="bg-[#89b8ad] p-2 rounded-xl">
           <p className="font-kulimparkregular text-lg md:text-2xl text-center">
             Free Webinar : Production of Non-Woven Fibers
           </p>

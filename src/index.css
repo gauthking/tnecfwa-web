@@ -38,6 +38,18 @@ body {
   width: 10px; /* Set the width of the scrollbar */
 }
 
+:-webkit-scrollbar-track {
+  background: #aee5d8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #aee5d8;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 html {
   scroll-behavior: smooth;
 }

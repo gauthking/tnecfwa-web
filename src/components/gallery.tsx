@@ -11,7 +11,7 @@ import image9 from "../assets/image9.png";
 const Gallery = () => {
   return (
     <div className="min-h-screen max-w-full">
-      <header className="pb-2 px-4 rounded-l-3xl relative top-11 bg-[#AEE5D8] border-2 border-[#E0B0D5] w-fit drop-shadow-xl float-right">
+      <header className="pb-2 px-4 rounded-l-3xl relative top-11 bg-[#AEE5D8] border-2 border-[#c3e0b0] w-fit drop-shadow-xl float-right">
         <div className="font-kulimpark text-4xl md:text-6xl px-4">gallery</div>
       </header>
       <Marquee className="p-20 text-sm">

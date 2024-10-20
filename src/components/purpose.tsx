@@ -3,7 +3,7 @@ import illustration1 from "../assets/illustration-1.svg";
 const Purpose = () => {
   return (
     <div className="bg-[#5FBF8F] max-w-full">
-      <header className="pb-2 px-4 rounded-r-3xl relative top-11 bg-[#AEE5D8] border-2 border-[#E0B0D5] w-fit drop-shadow-xl">
+      <header className="pb-2 px-4 rounded-r-3xl relative top-11 bg-[#AEE5D8] border-2 border-[#c3e0b0] w-fit drop-shadow-xl">
         <div className="font-kulimpark text-4xl md:text-6xl">purpose</div>
       </header>
       <section className="flex flex-col-reverse md:flex-row items-center justify-between mx-10 pb-20">

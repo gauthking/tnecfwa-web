@@ -66,7 +66,7 @@ const Activities = () => {
   ];
   return (
     <div className="max-w-full mb-20">
-      <header className="pb-2 px-4 rounded-r-3xl relative top-11 bg-[#AEE5D8] border-2 border-[#E0B0D5] w-fit drop-shadow-xl">
+      <header className="pb-2 px-4 rounded-r-3xl relative top-11 bg-[#AEE5D8] border-2 border-[#c3e0b0] w-fit drop-shadow-xl">
         <div className="font-kulimpark text-4xl md:text-6xl">activities</div>
       </header>
       <div className="flex items-center justify-center mt-20 w-1/20">

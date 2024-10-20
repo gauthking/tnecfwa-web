@@ -7,8 +7,8 @@ import logo from "../assets/logo.png";
  */
 const MainNavbar = () => {
   return (
-    <div className="hidden w-full xl:px-4 items-center md:flex justify-between bg-[#AEE5D8] shadow-gray-500 shadow-md max-w-full m-auto">
-      <div className="flex justify-center items-center gap-2 mx-3 py-3">
+    <div className="hidden w-full items-center md:flex justify-between bg-[#AEE5D8] shadow-gray-500 shadow-md max-w-full m-auto">
+      <div className="hidden md:flex justify-center items-center gap-2 mx-3 py-3">
         <img src={logo} className="w-12" alt="logosvg" />
         <a href="/">
           <h1 className="flex text-3xl gap-1 font-koulen font-[700] text-[#014824]">
@@ -16,7 +16,7 @@ const MainNavbar = () => {
           </h1>
         </a>
       </div>
-      <nav className="space-x-12 flex ">
+      <nav className="space-x-12 flex">
         {/* Render navigation links */}
         {NavbarInfo.map((item, index) => {
           return (
