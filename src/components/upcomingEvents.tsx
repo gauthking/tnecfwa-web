@@ -19,13 +19,20 @@ const UpcomingEvents = () => {
         />
         <div className="bg-[#89b8ad] p-2 rounded-xl">
           <p className="font-kulimparkregular text-lg md:text-2xl text-center">
-            Free Webinar : Production of Non-Woven Fibers
+            Free Webinar : Digital Technology in Aviation
           </p>
-          <button className="text-center text-[12px] p-2 bg-black rounded-xl text-white">
-            <a href="https://forms.gle/bZXKU437QYnzUP6Y9" target="_blank">
-              Register
-            </a>
-          </button>
+          <div className="flex p-2 items-center gap-3">
+            <button className="text-center text-[12px] p-2 bg-black rounded-xl text-white">
+              <a href="https://forms.gle/9Yg6dMUk9VBcc4fT7" target="_blank">
+                Register
+              </a>
+            </button>
+            <button className="text-center text-[12px] p-2 bg-black rounded-xl text-white">
+              <a href="https://meet.google.com/ojm-triw-kvc" target="_blank">
+                Google Meet
+              </a>
+            </button>
+          </div>
         </div>
       </div>
     </div>
