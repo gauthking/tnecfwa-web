@@ -8,6 +8,9 @@ import image6 from "../assets/image6.png";
 import image7 from "../assets/image7.png";
 import image8 from "../assets/image8.png";
 import image9 from "../assets/image9.png";
+import image10 from "../assets/upcomingevent2.jpg";
+import image11 from "../assets/upcomingevent1.jpg";
+
 const Gallery = () => {
   return (
     <div className="min-h-screen max-w-full">
@@ -23,6 +26,11 @@ const Gallery = () => {
         <img
           src={image2}
           alt="image2"
+          className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
+        />
+        <img
+          src={image11}
+          alt="image11"
           className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
         />
         <img
@@ -80,6 +88,11 @@ const Gallery = () => {
         <img
           src={image9}
           alt="image9"
+          className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
+        />
+        <img
+          src={image10}
+          alt="image10"
           className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
         />
         <img

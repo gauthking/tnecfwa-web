@@ -64,16 +64,7 @@ const OfficeBearers = () => {
                 Dr Shanmuganathan, EC Member
               </p>
               <p className="font-kulimparkregular p-1 rounded-xl bg-gray-500">
-                Prof D Sukumar, EC Member
-              </p>
-              <p className="font-kulimparkregular p-1 rounded-xl bg-gray-500">
                 Prof A Jayababu, EC Member
-              </p>
-              <p className="font-kulimparkregular p-1 rounded-xl bg-gray-500">
-                Prof Praveen Kumar U, EC Member
-              </p>
-              <p className="font-kulimparkregular p-1 rounded-xl bg-gray-500">
-                Mr Senthamizh Selvan, EC Member
               </p>
               <p className="font-kulimparkregular p-1 rounded-xl bg-gray-500">
                 Dr Praveen Joe I R, EC Member
@@ -89,6 +80,9 @@ const OfficeBearers = () => {
               </p>
               <p className="font-kulimparkregular p-1 rounded-xl bg-gray-500">
                 Prof John Alexander, EC Member
+              </p>
+              <p className="font-kulimparkregular p-1 rounded-xl bg-gray-500">
+                Dr F Fareeza, EC Member
               </p>
             </div>
           </div>
