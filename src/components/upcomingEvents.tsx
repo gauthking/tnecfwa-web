@@ -1,5 +1,5 @@
 // import poster from "../assets/upcomingevent.png";
-import poster2 from "../assets/upcomingevent3.jpg";
+import poster2 from "../assets/upcomingevent4.jpeg";
 
 const UpcomingEvents = () => {
   return (

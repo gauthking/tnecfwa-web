@@ -10,6 +10,7 @@ import image8 from "../assets/image8.png";
 import image9 from "../assets/image9.png";
 import image10 from "../assets/upcomingevent2.jpg";
 import image11 from "../assets/upcomingevent1.jpg";
+import image12 from "../assets/upcomingevent3.jpg";
 
 const Gallery = () => {
   return (
@@ -40,6 +41,11 @@ const Gallery = () => {
         />
         <img
           src={image4}
+          alt="image4"
+          className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
+        />
+        <img
+          src={image12}
           alt="image4"
           className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
         />
