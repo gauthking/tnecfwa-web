@@ -1,5 +1,6 @@
 // import poster from "../assets/upcomingevent.png";
 import poster2 from "../assets/upcomingevent4.jpeg";
+import poster1 from "../assets/upcomingevent3.jpg";
 
 const UpcomingEvents = () => {
   return (
@@ -17,6 +18,7 @@ const UpcomingEvents = () => {
             className=" w-[300px] md:w-[450px] rounded-2xl border-[#92AF92] border-4"
             alt=""
           />
+
           {/* <div className="bg-[#89b8ad] p-2 rounded-xl">
             <p className="font-kulimparkregular text-lg md:text-2xl text-center">
               Free Webinar : Digital Technology in Aviation
@@ -34,6 +36,13 @@ const UpcomingEvents = () => {
               </button>
             </div>
           </div> */}
+        </div>
+        <div className="flex flex-col items-center justify-center mt-10 gap-4 mx-6">
+          <img
+            src={poster1}
+            className=" w-[300px] md:w-[450px] rounded-2xl border-[#92AF92] border-4"
+            alt=""
+          />
         </div>
       </div>
     </div>
