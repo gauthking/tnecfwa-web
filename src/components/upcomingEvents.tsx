@@ -1,5 +1,5 @@
 // import poster from "../assets/upcomingevent.png";
-import poster2 from "../assets/upcomingevent4.jpeg";
+import poster2 from "../assets/upcomingevents5.jpg";
 import poster1 from "../assets/upcomingevent3.jpg";
 
 const UpcomingEvents = () => {
@@ -36,13 +36,6 @@ const UpcomingEvents = () => {
               </button>
             </div>
           </div> */}
-        </div>
-        <div className="flex flex-col items-center justify-center mt-10 gap-4 mx-6">
-          <img
-            src={poster1}
-            className=" w-[300px] md:w-[450px] rounded-2xl border-[#92AF92] border-4"
-            alt=""
-          />
         </div>
       </div>
     </div>
