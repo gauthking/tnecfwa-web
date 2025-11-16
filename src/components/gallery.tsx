@@ -10,6 +10,17 @@ import image8 from "../assets/image8.png";
 import image9 from "../assets/image9.png";
 import image10 from "../assets/upcomingevent2.jpg";
 import image11 from "../assets/upcomingevent1.jpg";
+import image12 from "../assets/gallerynew1.jpg";
+import image13 from "../assets/gallerynew2.jpg";
+import image14 from "../assets/gallerynew3.jpg";
+import image15 from "../assets/gallerynew4.jpg";
+import image16 from "../assets/gallerynew5.jpg";
+import image17 from "../assets/gallerynew6.jpg";
+import image18 from "../assets/gallerynew7.jpg";
+import image19 from "../assets/gallerynew8.jpg";
+import image20 from "../assets/upcomingevents5.jpg";
+import image21 from "../assets/upcomingevent4.jpeg";
+import image22 from "../assets/upcomingevent3.jpeg";
 
 const Gallery = () => {
   return (
@@ -64,6 +75,31 @@ const Gallery = () => {
           alt="image4"
           className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
         />
+        <img
+          src={image12}
+          alt="image12"
+          className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
+        />
+        <img
+          src={image13}
+          alt="image13"
+          className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
+        />
+        <img
+          src={image14}
+          alt="image14"
+          className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
+        />
+        <img
+          src={image15}
+          alt="image15"
+          className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
+        />
+        <img
+          src={image16}
+          alt="image16"
+          className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
+        />
       </Marquee>
       <Marquee className="p-20 text-sm -mt-20" direction="right">
         <img
@@ -99,6 +135,36 @@ const Gallery = () => {
         <img
           src={image4}
           alt="image4"
+          className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
+        />
+        <img
+          src={image17}
+          alt="image17"
+          className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
+        />
+        <img
+          src={image18}
+          alt="image18"
+          className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
+        />
+        <img
+          src={image19}
+          alt="image19"
+          className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
+        />
+        <img
+          src={image20}
+          alt="image20"
+          className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
+        />
+        <img
+          src={image21}
+          alt="image21"
+          className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
+        />
+        <img
+          src={image22}
+          alt="image22"
           className="h-[220px] mx-6 border-4 rounded-xl border-[#92AF92] shadow-lg"
         />
       </Marquee>
