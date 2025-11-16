@@ -19,8 +19,8 @@ import image17 from "../assets/gallerynew6.jpg";
 import image18 from "../assets/gallerynew7.jpg";
 import image19 from "../assets/gallerynew8.jpg";
 import image20 from "../assets/upcomingevents5.jpg";
-import image21 from "../assets/upcomingevent4.jpeg";
-import image22 from "../assets/upcomingevent3.jpeg";
+import image21 from "../assets/upcomingevent4.jpg";
+import image22 from "../assets/upcomingevent3.jpg";
 
 const Gallery = () => {
   return (
