@@ -1,5 +1,6 @@
 // import poster from "../assets/upcomingevent.png";
 import poster2 from "../assets/iitm.jpg";
+import { Link } from "react-router-dom";
 
 const UpcomingEvents = () => {
   return (
@@ -10,7 +11,7 @@ const UpcomingEvents = () => {
           Upcoming Events
         </h1>
       </header>
-      <div className="flex flex-col md:flex-row items-center justify-center w-full">
+      <div className="flex flex-col items-center justify-center w-full gap-10">
         <div className="flex flex-col items-center justify-center mt-10 gap-4 mx-6">
           <img
             src={poster2}
@@ -18,24 +19,12 @@ const UpcomingEvents = () => {
             alt=""
           />
 
-          {/* <div className="bg-[#89b8ad] p-2 rounded-xl">
-            <p className="font-kulimparkregular text-lg md:text-2xl text-center">
-              Free Webinar : Digital Technology in Aviation
-            </p>
-            <div className="flex p-2 items-center gap-3">
-              <button className="text-center text-[12px] p-2 bg-black rounded-xl text-white">
-                <a href="https://forms.gle/9Yg6dMUk9VBcc4fT7" target="_blank">
-                  Register
-                </a>
-              </button>
-              <button className="text-center text-[12px] p-2 bg-black rounded-xl text-white">
-                <a href="https://meet.google.com/ojm-triw-kvc" target="_blank">
-                  Google Meet
-                </a>
-              </button>
-            </div>
-          </div> */}
         </div>
+        <Link to={"https://beige-lidia-31.tiiny.site/"}>
+          <button className="text-center text-xl lg:text-2xl p-3 hover:scale-105 ease-in-out bg-[#89b8ad] rounded-xl text-black w-fit m-auto font-kulimpark ">
+            View RIDE Rules
+          </button>
+        </Link>
       </div>
     </div>
   );
